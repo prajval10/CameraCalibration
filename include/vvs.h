@@ -172,6 +172,8 @@ protected:
     // 3D points + borders + frame
     unsigned int r_, c_;
     std::vector<vpPoint> X_, B_, F_;
+
+    vpPoint X_copy;                     //written by me
     std::vector<cv::Point2d> Bpx_;
 
     // used camera and markers
